@@ -1,0 +1,13 @@
+body {
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.external-heading {
+  color: navy;
+}
+
+.external-paragraph {
+  font-size: 18px;
+  color: #00796b;
+}
