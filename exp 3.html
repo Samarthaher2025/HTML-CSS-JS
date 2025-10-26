@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style>
+        fieldset{
+            margin-right: 500px;
+        }
+        textarea{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>USER REGISTRATION FORM</h1><br>
+
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+
+         <section id="Personal Information">
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter you full name" required> <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email id" required> <br><br>
+
+        <label for="password"****>Password:</label>
+        <input type="password" placeholder="At least 6 digits" required> <br><br>
+
+        <label for="password"****>Confirm password</label>
+        <input type="password" name="password" placeholder="Confirm" required> <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label> <br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="reading" id="reading" value="reading" required>
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="travelling" id="travelling" value="travelling" required>
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" name="gaming" id="gaming" value="gaming" required>
+        <label for="gaming">Gaming</label> <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="date" id="date" required> <br><br>
+
+        <label for="profile">Upload profile:</label>
+        <input type="file" name="profile" id="profile">
+    </section>
+
+</fieldset> <br><br>
+
+<fieldset>
+    <legend>Additional Information</legend>
+    <section>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+        <option value="">--Select--</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Other">Other</option>
+        </select>
+
+        <label for="comments">Comments:</label> <br><br>
+        <textarea name="comments" id="comments" rows="10">Write Something.....</textarea>
+    </section>
+</fieldset> <br>
+
+<input type="submit" value="Register"><br><br>
+<input type="reset" value="Reset">
+
+</body>
+</html>
