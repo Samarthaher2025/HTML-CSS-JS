@@ -1,0 +1,133 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/* Typography Section */
+.typography {
+  padding: 20px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.typography-example {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-align: justify;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #2c3e50;
+  text-shadow: 1px 1px 2px gray;
+}
+
+/* Box Model Section */
+.box-model {
+  padding: 20px;
+  margin: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.box {
+  width: 300px;
+  min-width: 200px;
+  max-width: 90%;
+  height: 150px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 3px dashed #3498db;
+  border-radius: 10px;
+  outline: 2px solid #95a5a6;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+/* Background Section */
+.background {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.background-box {
+  width: 90%;
+  margin: 0 auto;
+  height: 200px;
+  background-color: #cce7ff;
+  background-image: url('https://via.placeholder.com/100');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100px 100px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-blend-mode: lighten;
+  background-image: linear-gradient(to right, #74ebd5, #acb6e5);
+  border: 2px solid #7f8c8d;
+  border-radius: 10px;
+}
+
+/* Layout Section */
+.layout {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.layout-box {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 8px;
+  float: left;
+}
+
+.overflow-box {
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 30px auto;
+  background-color: #f1c40f;
+  clear: both;
+  visibility: visible;
+}
