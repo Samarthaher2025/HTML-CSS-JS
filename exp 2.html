@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header, nav, main, section, footer{
+            padding: 20px;
+        }
+        nav{
+            background-color: #333;
+           margin-right: 700px;
+           border-radius: 100px;
+        }
+        nav a{
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        nav a :hover{
+            text-decoration: solid;
+        }
+        section{
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 1px ;
+        }
+        footer{
+            background-color: slategrey;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Samarth Aher</h1>
+            <p>Web Developer | CSE Student | Tech Enthusiast</p>
+        </header>
+
+        <nav>
+            <a href="#about" target="_blank">About me</a>
+            <a href="#project" target="_blank">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="About">
+                <h2>About me</h2>
+                <p>Hello, I am a CSE student. Studing in MIT WPU.</p>
+                <h3>Education</h3>
+                <p>Integrated B.Tech in Computer Science and Engineering.</p>
+                <h3>Skills</h3>
+                <ol>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node.js</li>
+                    <li>Python, C++</li>
+                </ol>
+            </section>
+
+            <section id="Projects">
+                <h3>Portfolio Website</h3>
+                <p>This portfolio is made up of HTML and CSS.</p>
+            </section>
+
+            <section id="resume">
+                <p>You can download my resume here.</p>
+                <a href="resume.pdf"target="_blank">Downlaod Resume (pdf)</a>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>email: <a href="contactus.html" target="_blank">abc@example.com</a></p>
+                <p>Phone: +91-3934882002</p>
+                <form action="experi 1.html">
+
+                    <label for="name">Name:</label><br>
+                    <input type="text"required> <br> <br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Samarth Aher. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
